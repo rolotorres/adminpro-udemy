@@ -1,20 +1,20 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable()
 export class SidebarService {
-
   menu: any = [
     {
-      titulo: 'Principal',
-      icono: 'mdi mdi-gauge',
+      titulo: "Principal",
+      icono: "mdi mdi-gauge",
       submenu: [
-        { titulo: 'Dashboard', url: '/dashboard' },
-        { titulo: 'Progressbar', url: '/progress' },
-        { titulo: 'Gráficas', url: '/graficas1' }
+        { titulo: "Dashboard", url: "/dashboard" },
+        { titulo: "Progressbar", url: "/progress" },
+        { titulo: "Gráficas", url: "/graficas1" },
+        { titulo: "Promesas", url: "/promesas" },
+        { titulo: "Rxjs", url: "/rxjs" }
       ]
     }
   ];
 
-  constructor() { }
-
+  constructor() {}
 }
