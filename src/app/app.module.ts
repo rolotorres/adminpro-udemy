@@ -18,14 +18,11 @@ import { RegisterComponent } from './login/register.component';
 // Rutas
 import { APP_ROUTES } from './app.routes';
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
